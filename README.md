@@ -113,6 +113,10 @@ Vue.prototype.$asyncLoadJs = asyncLoadJs;
 在mounted方法中`参数一：url地址 参数二：id（必须保证唯一性）`
 ```JavaScript
 mounted() {
+ //无路由引用
+ this.$asyncLoadJs("http://v.bootstrapmb.com/2020/2/c85i87390/plugins/dropify/dropify.min.js");
+ 
+ //有路由引用
  this.$asyncLoadJs("http://v.bootstrapmb.com/2020/2/c85i87390/plugins/dropify/dropify.min.js","dropify");
 },
 ```
