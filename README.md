@@ -18,7 +18,7 @@
 
 ## 环境准备
 ### 组件安装
-```
+```Shell
 npm install q --save
 ```
 ### 文件创建
@@ -103,7 +103,7 @@ export default function asyncLoadJs(url, id) {
 ## 全局引入
 
 在main.js中添加`注：文件名需要与之前自己定义的js文件名前缀一致，prototype后面必须要加$，见示例`
-```
+```JavaScript
 //动态引入js
 import asyncLoadJs from "@/loadResources";
 Vue.prototype.$asyncLoadJs = asyncLoadJs;
