@@ -110,7 +110,7 @@ Vue.prototype.$asyncLoadJs = asyncLoadJs;
 ```
 
 ## 使用示例
-在mounted方法中`参数一：url地址 参数二：id（必须保证唯一性）`
+在mounted方法中`参数一：url地址 参数二：id（必须保证唯一性，建议使用js文件的前缀名）`
 ```JavaScript
 mounted() {
  //无路由引用
