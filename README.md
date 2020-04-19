@@ -1,6 +1,6 @@
 
 
-<div align=center><img src="https://github.com/ZYKJShadow/vue-asyncLoadJs/blob/master/ScreenShots/shadow_logo.png" width=300 heigh=300 ></div><br>
+<div align=center><img src="https://github.com/ZYKJShadow/vue-asyncLoadJs/blob/master/ScreenShots/shadow_logo.png" width=250 heigh=250 ></div><br>
 
 
 <div align=center>
